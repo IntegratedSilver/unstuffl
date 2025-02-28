@@ -1,17 +1,29 @@
-import WelcomeScreen from "./Screens/WelcomeScreen";
-import ViewImageScreen from "./Screens/ViewImageScreen";
-import Borders from "./Screens/Borders";
-import Shadows from "./Screens/Shadows";
-import PaddingMargins from "./Screens/PaddingMargins";
-import AppText from "./Screens/AppText.tsx";
+
+import React from "react";
+import MessagesScreen from "./Screens/MessagesScreen";
+
 
 export default function Index() {
   return (
-    <WelcomeScreen/>
-    // <ViewImageScreen/>
-    // <Borders/>
-    // <Shadows/>
+    <MessagesScreen/>
+    // <ListingDetailsScreen/>
+    // <View style={{backgroundColor: "#f8f4f4", padding: 20, paddingTop: 100}}>
+    //   <Card
+    //     title="Blue jean jacket for sale"
+    //     subTitle="$100"
+    //     image={require("../assets/images/jeanJacket.jpg")}
+    //   />
+    // </View>
+      /* <AppText>Welcome Back to React Native</AppText>
+      <MaterialCommunityIcons name="email-outline" size={50} color
+      ="dodgerblue"/>
+<MaterialCommunityIcons name="window-close" size={24} color="red" /> */
+    /* <AppButton title="Login" onPress={() => alert("Pressed")}/> */
+ 
     // <PaddingMargins/>
-    // <AppText/>
+    // <Shadows/>
+    // <Borders/>
+    // <ViewImageScreen/>
+  //  <WelcomeScreen/>
   );
 }
